@@ -1,0 +1,39 @@
+# Discord token & ID of operator
+OPERATOR_TOKEN: 'DISCORD_TOKEN_HERE'
+OPERATOR_ID: 'OPERATOR_ID_HERE'
+
+# Member role to ping
+PING_ROLE: 'PING_ROLE_HERE'
+
+# Server to execute in
+GUILD: 'GUILD_ID_HERE'
+
+# Save data info
+META_PATH: 'archive/meta'
+CONVERS_PATH: 'archive/convers'
+FILE_PREFIX: 'app'
+
+# Message templates
+THREAD_M1: 'Hello <@[APPLICANT_ID]>, the <@&[PING_ROLE]>s may have some questions
+  for you! Please respond with as much details as possible!'
+THREAD_M2: 'Reference Link: [APPLICATION_LINK]'
+THREAD_MLOCK: '===[APPLICATION CLOSED]==='
+MEMBER_M1: '<@&[PING_ROLE]> [APPLICATION_LINK] https://discord.com/channels/[GUILD]/[THREAD_ID]'
+MEMBER_MLOCK: 'Application voting for `[APPLICANT_NAME]` has concluded with `[ACCEPT_VOTES]`
+  accept votes and `[DENY_VOTES]` deny votes. The finalized outcome is `[APP_RESULT]`.'
+MEMBER_MMETA: 'Metadata:'
+
+# Vote emojis
+ACCEPT_EMOJI: 'thumbsup'
+DENY_EMOJI: 'thumbsdown'
+
+# Applicant's & members' channel
+APPLICANT_CHANNEL: 'applicant_channel_id'
+MEMBER_CHANNEL: 'member_channel_id'
+
+# App info
+APPLICANT_NAME: Applicant Name
+APPLICATION_LINK: 
+  https://discord.com/channels/guild_id/channel_id/message_id
+
+# Auto-generated info of ongoing application

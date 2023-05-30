@@ -1,0 +1,6 @@
+*.log
+*.json
+gr_config.yaml
+gr_result_options.ini
+__.txt
+__pycache__
